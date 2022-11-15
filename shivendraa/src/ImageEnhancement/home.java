@@ -22,7 +22,7 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 
 /**
  *
- * @author Ranu
+ * @author Shivendra
  */
 public class home extends javax.swing.JFrame {
 
@@ -39,7 +39,7 @@ public class home extends javax.swing.JFrame {
         ChooseImg.setFileFilter(new FileNameExtensionFilter("*.images", ImageIO.getReaderFileSuffixes()));
         SaveImg.setFileFilter(new FileNameExtensionFilter(".png","PNG File"));
         save_img=new JFileChooser();
-        save_img.setDialogType(JFileChooser.SAVE_DIALOG);
+        save_img.setDialogType(JFileChooser.SAVE_DFFIALOG);
         save_img.setFileFilter(new FileNameExtensionFilter(".png","PNG File"));
         
     }
